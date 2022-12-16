@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.customize-card {
+    position: relative;
+}
+
+.customize-card .save-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 1.5em;
+}
+
+.cus-card {
+    transition: all 0.3s ease-in;
+}
+
+.cus-card:hover {
+    position: relative;
+    transform: scale(1.03);
+    box-shadow: 1px 1px 10px rgb(163, 160, 160);
+}
+
+.cus-card:hover img {
+    transform: scale(0.98) translateY(-2px);
+    transition: all 0.3s ease-in-out;
+}
+
+.card .active1 {
+    border-left: 3px solid rgb(0, 153, 255);
+}
+
+.image-box {
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.image-box div {
+    width: 80px;
+}
+
+.image-box div img {
+    margin: 13px 0px;
+}

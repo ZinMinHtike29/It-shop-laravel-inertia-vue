@@ -1,0 +1,19 @@
+/* Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #048af1;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+}
+
+input:checked {
+    background-color: red !important;
+}

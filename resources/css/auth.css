@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200&display=swap");
+.login-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: rgb(64, 171, 206);
+    word-spacing: 5px;
+}
+
+.icon-box .fa-facebook-f {
+    padding: 18px 21px;
+    border-radius: 50%;
+}
+
+.icon-box .fa-google-plus-g {
+    padding: 18px 15px;
+    border-radius: 50%;
+}
+
+.icon-box .fa-linkedin-in {
+    padding: 18px 19px;
+    border-radius: 50%;
+}
+
+.icon-box .fa-brands {
+    transition: 0.5s;
+}
+
+.icon-box .fa-brands:hover {
+    background-color: rgb(0, 255, 100);
+    color: aliceblue;
+}
+
+.login-input input {
+    background-color: rgba(216, 216, 216, 0.418);
+    border: none;
+    outline: none;
+}
+
+.form-control:focus {
+    border-color: rgb(64, 171, 206) !important;
+    box-shadow: 0 0 5px rgb(64, 171, 206) !important;
+}
+
+.login-form .password-text {
+    font-family: "Poppins", sans-serif;
+}
+
+.login-form button {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    background-color: rgb(64, 171, 206);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 85px;
+    filter: brigtness(10%);
+    user-select: none;
+    transition: 0.5s;
+}
+
+.login-form button:hover {
+    background-color: rgb(64, 171, 206);
+}
+
+.text-box {
+    background-color: rgb(64, 171, 206);
+    background-image: linear-gradient(0deg, #0084ff 0%, rgb(64, 171, 206) 100%);
+}
+
+.text-box div {
+    min-height: 100%;
+}
+
+.text-box h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: white;
+}
+
+.text-box p {
+    font-family: "Poppins", sans-serif;
+    word-spacing: 4px;
+}
+
+.text-box button {
+    font-family: "Poppins", sans-serif;
+    padding: 10px 80px;
+}
+
+.loadPage {
+    background-color: #85ffbd;
+    background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+    display: none;
+}
+
+.loadPageUpdate {
+    display: flex;
+}
